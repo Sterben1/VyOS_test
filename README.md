@@ -50,6 +50,7 @@ run show vrrp
 Переведемо інтерфейс на master в disable 
 ```bash 
 set interfaces ethernet eth0 disable
+commit
 ```
 ![alt text](ping.jpg)
 
@@ -57,3 +58,6 @@ set interfaces ethernet eth0 disable
 ```bash
 run show vrrp
 ```
+![alt text](backup_vrrp_2.jpg)
+
+![alt text](master_vrrp_2.jpg)
